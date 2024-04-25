@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
+    background-image: url('blurrr.jpg');
     background-size: cover; /* Adjusts the background image size */
     
 }
@@ -22,7 +22,7 @@ body {
 }
 
 .logo a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
@@ -35,7 +35,7 @@ body {
     background-image: url('hero-image.jpg'); /* Replace with your image */
     background-size: cover;
     background-position: center;
-    color: #ffffff;
+    color: #000000;
 }
 
 .hero h1 {
@@ -91,7 +91,7 @@ h2 {
 }
 /* CSS code to style navigation links */
 .nav-links li a {
-    color: white; /* Set the color to black */
+    color: black; /* Set the color to black */
     text-decoration: none; /* Remove underline from links */
 }
 
@@ -108,5 +108,11 @@ h2 {
     font-size: 1.2rem;
 }
 .container{
-    color: rgb(255, 255, 255);
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add transparency to container background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
 }
